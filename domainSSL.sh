@@ -19,3 +19,5 @@ if ls ./.lego/certificates | grep "$domain"
 else
     echo '证书签发失败，请检查80端口是否被占用，域名解析或者输入域名是否正确。'
 fi
+
+
